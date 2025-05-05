@@ -49,3 +49,33 @@
     }
     console.log(A6("salom"));
 }
+
+function A7(text) {
+    return text.split(' ');
+}
+
+console.log(A7("dunyo eng katta jami johon messi"));
+
+{
+   // M-8
+    function A8(n) {
+        return( n.padStart(4,0).repeat(2));
+    }
+    console.log(A8("23"));    
+}
+
+{
+    // M-9
+    function A9(n) {
+        return(n.replace("-"," ").split("n"))
+    }
+    console.log(A9("Salom-Hello "));   
+}
+
+{
+    // M-10
+    function A10(n) {
+        return("user" + n.slice(4))
+    }
+    console.log(A10("jack@gmail.com"));
+}
