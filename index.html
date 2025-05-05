@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>String Methods</title>
+    <style>
+        h1{
+            text-align: center;
+            color: gold;
+            font-size: 6vw;
+        }
+        p{
+            display: flex;
+        }
+        .container{
+            max-width: 1200px;
+            margin: auto;
+            padding: 30px;
+        }
+        li{
+            font-weight: 600;
+            font-size: 25px;
+            letter-spacing: 1px;
+            line-height: 40px;
+        }
+        strong{
+            color: gold;
+        }
+        body{
+            background: #ffffff;
+        }
+    </style>
 </head>
 <body>
-    
-
+    <h1>String Methods</h1>
+    <h3></h3>
+    <p class="container"><strong>JavaScript satrlarining metodlari:</strong></p>
+<ul class="container">
+  <li><strong>length</strong> - uzunligi. Bu metod satrning umumiy uzunligini hisoblash uchun ishlatiladi.</li>
+  <li><strong>toLowerCase()</strong> - kichik harflarga o'tkazish. Bu metod satrdagi barcha katta harflarni kichik harflarga aylantirish uchun ishlatiladi.</li>
+  <li><strong>toUpperCase()</strong> - katta harflarga o'tkazish. Bu metod satrdagi barcha kichik harflarni katta harflarga aylantirish uchun ishlatiladi.</li>
+  <li><strong>trim()</strong> - bo'shliqlarni o'chirish. Bu metod satrning boshida va oxiridagi ortiqcha bo'shliqlarni olib tashlash uchun ishlatiladi.</li>
+  <li><strong>replace()</strong> - almashtirish. Bu metod satrdagi ma'lum bir bo'limni (yoki belgini) boshqa bir bo'lim yoki belgiga o'zgartirish uchun ishlatiladi.</li>
+  <li><strong>split()</strong> - bo'lish. Bu metod satrni belgilangan ajratgich bo'yicha bo'lib, massiv (array) shaklida qaytaradi.</li>
+  <li><strong>indexOf()</strong> - podsatir indeksini topish. Bu metod satrda berilgan bo'limni (yoki belgini) qayerda joylashganligini aniqlash uchun ishlatiladi. Agar bo'lim topilmasa, `-1` qaytariladi.</li>
+  <li><strong>includes()</strong> - bor-yo'qligini tekshirish. Bu metod satrda berilgan bo'limning mavjudligini tekshiradi va `true` yoki `false` qaytaradi.</li>
+  <li><strong>slice()</strong> - bir qismini olish. Bu metod satrning belgilangan qismidan yangi satr yaratish uchun ishlatiladi, bu qismni o'zida saqlaydi.</li>
+  <li><strong>startsWith()</strong> - boshlanishini tekshirish. Bu metod satrning boshlanishida berilgan bo'lim borligini tekshirish uchun ishlatiladi.</li>
+  <li><strong>endsWith()</strong> - tugashini tekshirish. Bu metod satrning oxirida berilgan bo'lim borligini tekshiradi.</li>
+  <li><strong>repeat()</strong> - takrorlash. Bu metod satrni berilgan marta takrorlash uchun ishlatiladi.</li>
+</ul>
 
 
     <script src="./js/app.js"></script>
